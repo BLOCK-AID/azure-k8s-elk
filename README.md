@@ -1,3 +1,5 @@
+## Elasticsearch K8S Single Cluster
+
 ### Pre-requesites
 + Docker is installed
 + Kubernetes is installed with:
@@ -5,7 +7,6 @@
   + kubectl
 + Kubectl config in $HOME user directory
 
-## Elasticsearch K8S Single Cluster
 ### Topology
   + Single Cluster: elk.blockaidservices.com
     + 3 K8S Master nodes
@@ -15,7 +16,6 @@
       + 2 ELK Coordinating Nodes (1 pod per Node for READ LB)
       + 1 ELK Kibana instance
       + 1 ELK Logstash instance
-
 ```
 ******* Start ELASTICSEARCH ******
 
